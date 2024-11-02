@@ -5,7 +5,7 @@ from time import sleep
 app = Flask(__name__)
 
 # Define GPIO Pins for LEDs
-servo = [Servo(17)]
+servo = Servo(18)
 
 # Render the HTML page with control interface
 @app.route("/")
