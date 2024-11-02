@@ -7,7 +7,7 @@
 
         <script>
             function moveServo(position) {
-                fetch("/move_servo", {
+                fetch("/moveServo", {
                     method: "POST",
                     headers: { "Content-Type": "application/x-www-form-urlencoded" },
                     body: "position=" + position
